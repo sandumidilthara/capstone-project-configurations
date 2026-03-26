@@ -26,16 +26,9 @@ spring:
           globalcors:
             cors-configurations:
               '[/**]':
-                allowedOriginPatterns:
-                  - "*"
-                allowedMethods:
-                  - GET
-                  - POST
-                  - PUT
-                  - DELETE
-                  - OPTIONS
-                allowedHeaders:
-                  - "*"
+                allowedOrigins: "*"
+                allowed-methods: "*"
+                allowed-headers: "*"
                 allowCredentials: false
 server:
   port: 7000
