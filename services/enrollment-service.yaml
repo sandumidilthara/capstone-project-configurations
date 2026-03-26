@@ -19,7 +19,7 @@ spring:
         format_sql: true
 
 server:
-  port: 8002
+  port: 0
 
 eureka:
   instance:
