@@ -29,7 +29,6 @@ spring:
                 allowedOrigins: "*"
                 allowed-methods: "*"
                 allowed-headers: "*"
-                allowCredentials: false
 server:
   port: 7000
 
