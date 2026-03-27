@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://vm-node-a.platform:9001/eureka ,http://vm-node-b.platform:9001/eureka ,http://vm-node-c.platform:9001/eureka
+      defaultZone: http://10.148.0.7:9001/eureka ,http://10.148.0.8:9001/eureka ,http://10.148.0.6:9001/eureka
 
 management:
   endpoints:
