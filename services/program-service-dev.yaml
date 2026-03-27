@@ -2,6 +2,14 @@ spring:
   mvc:
     problemdetails:
       enabled: true
+#  data:
+#    mongodb:
+#      host: localhost
+#      port: 13500
+#      database: eca
+#      username: root
+#      password: mongodb
+#      authentication-database: admin
 
 server:
   port: 0
