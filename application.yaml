@@ -1,10 +1,7 @@
 eureka:
   client:
     service-url:
-      eureka:
-        client:
-          service-url:
-            defaultZone: http://vm-node-a.platform:9001/eureka/,http://vm-node-b.platform:9001/eureka/,http://vm-node-c.platform:9001/eureka/
+      defaultZone: http://vm-node-a.platform:9001/eureka/,http://vm-node-b.platform:9001/eureka/,http://vm-node-c.platform:9001/eureka/
 
 management:
   endpoints:
@@ -17,3 +14,4 @@ logging:
     lk.ijse.eca: DEBUG
     org.springframework.web: INFO
     org.hibernate.SQL: DEBUG
+
